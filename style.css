@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Diseño de el lenguaje */
+
+.seleccion_idioma{
+    background-image: url('portada.png');
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    font-size: 0.5rem;
+    justify-content: end;
+    justify-items: center;
+    padding: 0.1rem;
+}
+
+.español,
+.ingles{
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+.bandera_españa{
+    margin-right: 0.7rem;
+}
+.español h2{
+    margin-right: 0.5rem;
+}
+
+.ingles h2{
+    margin-right: 0.5rem;
+} 
+
+.seleccion_idioma img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+
+/* Barra navegacion */
+
+
+.lista{
+    display: block;
+    text-align: center;
+    list-style: none;
+    background-image: url('fondo_nav.jpg');
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    color: #000;
+}
+
+.item{
+    color: white;
+    display: inline;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+    color: #000;
+}
+
+.item:hover{
+    background-color: #000;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.special{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+/* Portada */
+
+
+.portada{
+    background-image: url('portada.png');
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    display:inline-block;
+    text-align: center;
+
+}
+
+.texto h1{
+    margin-top: 1.3rem;
+    font-size: 4rem;
+    font-family: 'Source Serif Pro', serif;
+    color: white;
+}
+
+.texto h2{
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    font-family: 'monospace';
+}
+
+.foto_perfil{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    display:inline;
+    margin-top: 3.5rem;
+
+}
+
+.logos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.logo{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0rem 0.5rem;
+}
+
+
+/*Diseño de elaboracion de la primera seccion del 
+pagina web */
+
+.seccion_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 1rem; 
+    width: 100%;
+    background-image: url('fondogris.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seccion_izquierda{
+    width: 30%;
+    display:block;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
+
+.seccion_izquierda h3{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.seccion_izquierda p{
+    margin-top: 1rem;
+}
+
+.seccion_centro{
+    width: 30%;
+    display:block;
+    text-align: justify;
+    justify-content:center;
+    align-items: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 0rem 3rem;
+}
+
+.seccion_centro h3{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.boton_seccion_centro{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 10rem;
+    margin-top: 2rem;
+}
+
+.boton_seccion_centro:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.seccion_derecha{
+    width: 30%;
+    display:block;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
+.seccion_izquierda img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+
+}
+
+.seccion_derecha img{
+    width: 100%;
+    height: 20rem;
+    
+}
+
+.seccion_centro p{
+    font-family: 'monospace';
+    color: rgb(85, 85, 85);
+}
+
+/* segunda seccion de la pagina web */
+
+.seccion_2 h2{
+    background-image: url('portada.png');
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    color:white;
+}
+
+.logo_segunda_seccion{
+    width: 5rem;
+    height: 5rem;
+}
+
+.es6{
+    width: 4rem;
+    height: 5rem;
+}
+
+.node{
+    width: 7rem;
+    height:5rem;
+}
+
+.css{
+    height: 5rem;
+}
+
+.estrella{
+    width: 1.2rem;
+    height: 1rem;
+}
+
+.card{
+    display: flex;
+    padding: 1rem;
+}
+
+.primera_fila{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 2rem 3rem;
+    background-image: url('portada.png');
+}
+
+.segunda_fila{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 2rem 3rem;
+    background-image: url('portada.png');
+    
+}
+
+.nivel{
+    margin: 1rem 0rem 1rem 0rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.card_1,
+.card_2,
+.card_3,
+.card_4,
+.card_5,
+.card_6{
+    border: 1px solid #000;
+    border-radius: 2rem;
+    width: 40rem;
+    margin: 0rem 2rem;
+    padding: 1rem 0rem;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.cards h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.card:hover{-webkit-transform:scale(1.3);transform:scale(1.3);}
+.card {overflow:hidden;}
+
+.texto{
+    color: rgb(79, 79, 79);
+}
