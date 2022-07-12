@@ -129,7 +129,7 @@
 
 }
 
-.logos{
+ .logos{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -140,7 +140,18 @@
     width: 1.5rem;
     height: 1.5rem;
     margin: 0rem 0.5rem;
-}
+} 
+
+.logos a:hover {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transition:all .2s ease;
+    -webkit-transition:all .2s ease;
+    -moz-transition:all .2s ease;
+    -o-transition:all .2s ease;
+    z-index: 5;
+  }
 
 
 /*Diseño de elaboracion de la primera seccion del 
@@ -425,4 +436,91 @@ pagina web */
     transform: perspective(600px) rotateY(360deg);
     transition: 1s;
 }
+
+/* cuarta seccion, contacto */
+
+.cuarta_seccion{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background: radial-gradient(ellipse at bottom, #022227 0%, #000000 100%);
+}
+
+.logo_contacto img{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo_contacto .imagen{
+    margin-right: 1rem;
+}
+
+.cuarta_seccion{
+    padding-bottom: 3rem;
+}
+
+.logo_contacto{
+    display: flex;
+    width: 19rem;
+    margin: 1rem 0rem;
+    border-radius: 50rem;
+    padding: 0.5rem;
+    background: #fff; 
+    color: #000000; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.logo_contacto::after {
+  content: "";
+  background-color: rgb(96, 194, 255);
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  right: -100%;
+  -webkit-transition: all 0.35s;
+  transition: all 1s;
+  
+}
+
+.logo_contacto .text:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.logo_contacto:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+
+  }
+
+.contenedor_logos .text{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.contenedor_logos h2{
+    margin: 3rem 0rem;
+}
+
+.mapa{
+    width: 100%;
+}
+
+
 
