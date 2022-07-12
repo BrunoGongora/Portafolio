@@ -24,14 +24,17 @@
             </div>
         </div>
 
-        <ul class="lista">
-                <li class="item">Quien Soy</li>
-                <li class="item">Estudios</li>
-                <li class="item special">Portafolio Profesional</li>
-                <li class="item">Proyectos</li>
-                <li class="item">Contacto</li>
-            </ul>
+<!-- Seccion de barra de navegacion -->
 
+        <ul class="lista">
+            <a href="#seccion_1"><li class="item">Quien Soy</li></a>
+            <a href="#seccion_2"><li class="item">Estudios</li></a>  
+            <li class="item special">Portafolio Profesional</li>
+            <a href="#tercera_seccion"><li class="item">Mas sobre mi</li></a>
+            <a href="#seccion_4"><li class="item">Contacto</li></a>   
+        </ul>
+
+<!-- Portada donde esta la foto de perfil redonda y los iconos de las redes sociales -->
 
         <div class="portada">
             <img  class="foto_perfil" src="foto_perfil.jpg" alt="foto_perfil">
@@ -42,15 +45,15 @@
                     <a href="https://www.instagram.com/gongorabruno/"><img class="logo instagram" src="instagram.png" alt="logo_instagram"></a>
                     <a href="https://www.facebook.com/BrunoGongora2018"><img class="logo facebook" src="facebook (1).png" alt="logo_facebook"></a>
                     <a href="https://wa.me/+573245567206"><img class="logo whatsapp" src="whatsapp.png" alt="logo_whatsapp"></a>
-                    <a href="https://www.linkedin.com/in/bruno-gongora-b42005199/"><img class="logo linkedin" src="linkedin.png" alt="logo_linkedin"></a>
-                    
+                    <a href="https://www.linkedin.com/in/bruno-gongora-b42005199/"><img class="logo linkedin" src="linkedin.png" alt="logo_linkedin"></a>  
                 </div>
             </div>     
         </div>
     </header>
-<!-- /Primera seccion de la pagina web -->
 
-    <div class="seccion_1">
+<!-- /Primera seccion de la pagina web, donde se define quien soy yo -->
+
+    <div id="seccion_1" class="seccion_1">
         <div class="seccion_izquierda">
             <img src="foto_seccion_izquierda.jpg" alt="fotografia_seccion_izquierda">
             <h3>Bruno <br> Gongora</h3>
@@ -59,18 +62,21 @@
 
         <div class="seccion_centro">
             <h3>Quien soy</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic maxime iure perspiciatis enim velit aspernatur  in tempore ratione corporis animi. Laborum laudantium ab  odit ad dicta tenetur error quibusdam eligendi.</p>
+            <p>Actualmente soy estudiante de desarrollo web Full Stack en Academlo Poseo conocimientos certificados en programación Backend y Frontend emitidos por Linkedin y diferentes plataformas que ofrecen este tipo de estudios. Soy una persona por la programación que busca siempre un crecimiento y mejora para poder brindar un excelente aporte al crecimiento tecnológico en cada empresa.</p>
             <br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic maxime iure perspiciatis enim velit aspernatur in tempore ratione corporis animi. Laborum laudantium ab odit ad dicta tenetur error quibusdam eligendi.</p>
-            <button class="boton_seccion_centro">Conoce Mas</button>
-            
+            <p>Me destaco por ser una personal motivada, con alta capacidad de aprendizaje, con empatía, excelente comunicación, liderazgo, resolución de problemas y trabajo en equipo.</p>
+            <a class="boton_seccion_centro" href="#tercera_seccion">
+                <button class="boton_seccion_centro">Conoce Mas</button></a>    
         </div>
+
         <div class="seccion_derecha">
             <img src="laptop.jpg" alt="fotografia_seccion_centro">
         </div>
     </div>
+
 <!-- segunda seccion de la pagina web -->
-    <div class="seccion_2">
+
+    <div  id="seccion_2" class="seccion_2">
         <h2>Estudios</h2>
         <div class="cards">
             <div class="primera_fila">
@@ -83,7 +89,8 @@
                             scope, tambien <br> conocimiento sobre el manejo y <br> uso de este mismo 
                             en el navegador <br> tanto en el DOM como en el BOM.</p>
                         <p class="nivel">Nivel</p>
-                    </div>   
+                    </div> 
+
                     <div class="card_1_conocimiento">
                         <img class="estrella" src="estrella.jpg" alt="imagen_de_estrella">
                         <img class="estrella" src="estrella.jpg" alt="imagen_de_estrella">
@@ -100,7 +107,8 @@
                             para los difernetes aplicativos <br> o paginas web con adaptacion resposive <br> design, manejo de metodologias como <br> sass y bem.
                         </p>
                         <p class="nivel">Nivel</p>
-                    </div>   
+                    </div>  
+
                     <div class="card_1_conocimiento">
                         <img class="estrella" src="estrella.jpg" alt="imagen_de_estrella">
                         <img class="estrella" src="estrella.jpg" alt="imagen_de_estrella">
@@ -120,7 +128,8 @@
                             para <br> conseguir los mejores resultado.
                         </p>
                         <p class="nivel">Nivel</p>
-                    </div>   
+                    </div> 
+
                     <div class="card_1_conocimiento">
                         <img class="estrella" src="estrella.jpg" alt="imagen_de_estrella">
                         <img class="estrella" src="estrella.jpg" alt="imagen_de_estrella">
@@ -141,6 +150,7 @@
                         </p>
                         <p class="nivel">Nivel</p>
                     </div>   
+
                     <div class="card_1_conocimiento">
                         <img class="estrella" src="estrella.jpg" alt="imagen_de_estrella">
                         <img class="estrella" src="estrella.jpg" alt="imagen_de_estrella">
@@ -159,6 +169,7 @@
                         </p>
                         <p class="nivel">Nivel</p>
                     </div>   
+
                     <div class="card_1_conocimiento">
                         <img class="estrella" src="estrella.jpg" alt="imagen_de_estrella">
                         <img class="estrella" src="estrella.jpg" alt="imagen_de_estrella">
@@ -177,7 +188,8 @@
                             respuestas oportunas a <br> cualquier requerimiento. 
                         </p>
                         <p class="nivel">Nivel</p>
-                    </div>   
+                    </div> 
+
                     <div class="card_1_conocimiento">
                         <img class="estrella" src="estrella.jpg" alt="imagen_de_estrella">
                         <img class="estrella" src="estrella.jpg" alt="imagen_de_estrella">
@@ -189,22 +201,21 @@
     </div>
 
     <!-- tercera seccion de la pagina web -->
-    <div class="tercera_seccion">
+
+    <div id="tercera_seccion" class="tercera_seccion">
         <h2>Un poco mas de mi</h2>
-            <p>Ahora te invito a que conozcas un poco de mi y los aspectos generales
-                que me conforman en mi aspecto personal y profesional</p>
-                <p>Ahora te invito a que conozcas un poco de mi y los aspectos generales
-                    que me conforman en mi aspecto personal y profesional</p>
-                    <p>Ahora te invito a que conozcas un poco de mi y los aspectos generales
-                        que me conforman en mi aspecto personal y profesional</p>
+            <p>Estudiante de Desarrollo Web Full Stack con conocimientos certificados en gestión de programación en estructuración y desarrollo de lenguajes de programación como JavaScript, Css, Html5, Node Js, Bootstrap con implementación en nuevas tecnologías y buenas prácticas como lo es ES6 y pre procesadores como SASS y Bem, análisis y desarrollo de pruebas de software, soporte técnico de equipos de cómputo, también conocimientos en programación en Python, conocimiento en funcionalidad de API y API Rest, callbacks y metodologías crud desde el backend, con experiencia en desarrollo web independiente, mantenimiento y soporte de equipos de cómputo y análisis y ejecución de pruebas de calidad en el proceso de desarrollo de software. Manejo de aplicativos como lo son GIT y GITHUB. Cuento con iniciativa, comunicación asertiva, liderazgo, organización y planeación. </p>
+                <p>Conocimiento y experiencia en el manejo, soporte y administración de páginas web y aplicativos en el internet, manejo de plataformas como cPanel, administración e instalación de certificados ssl, gestión de archivos mediante FileZila, ejecución de programas de seguridad en el internet, conexión de dominios y hosting por medio de los DNS, gestión y administración de name server, administración de hosting. Soporte a los diferentes errores de contenido que se pueden presentar en los diferentes aspectos web. </p>
+                    <p>Cuento con un nivel de inglés de un 80% en el cual puedo entender, escribir y hablarlo, puedo leer documentación escrita en inglés y entender el contexto. </p>
         <div class="container">
             <div class="card_tercera_seccion">
                 <div class="face face--front">
                     <h3>Idiomas</h3>
                     <img src="idiomas.jpg" alt="">  
                 </div>
+
                 <div class="face face--back">
-                    <h3>Prueba Idiomas</h3>
+                    <h3>Ingles <br><br> Actualmente el idioma que manejo es el ingles, hablandolo en un 70%, escribiendolo en un 80% y entendiendolo en un 60%, donde puedo comprender documentacion escrita completamente en ingles. </h3>
                 </div>
             </div>
     
@@ -213,8 +224,9 @@
                     <h3>Hobbies</h3>
                     <img src="hobbies.jpg" alt="">
                 </div>
+
                 <div class="face face--back">
-                    <h3>Prueba Hobbies</h3>
+                    <h3>Agunos de los hobbies que tengo en mis tiempos libres es viajar, conocer nuevos lugares, expandir mis conocimientos, compartir tiempo con las personas cercanas, me gusta dibujar, ver ser series y peliculas pero la mayor parte del tiempo estoy escribiendo codigo. </h3>
                 </div>
             </div>
     
@@ -223,8 +235,9 @@
                     <h3>Expectativas</h3>
                     <img src="metas.jpg" alt="">
                 </div>
+
                 <div class="face face--back">
-                    <h3>Prueba Metas</h3>
+                    <h3>Actualmente mis expectativas estan puestas en estar ubicado en una empresa donde pueda crecer tanto en el aspecto profesional como en el aspecto personal, una empresa que me permita desarrollarme y dar mi maximo potencial sin limitaciones, espero tener un salario acorde a mis capacidades donde tenga la oportunidad de crecer en el cargo en el que me especialice.</h3>
                 </div>
             </div>
     
@@ -233,16 +246,17 @@
                     <h3>Educación</h3>
                     <img src="estudios.jpg" alt="">
                 </div>
+
                 <div class="face face--back">
-                    <h3>Prueba Educacion</h3>
+                    <h3>Actualmente cuento con diferentes certificados en base a la programacion web full stack como por ejemplo. <br><br> Aprende Scrum <br>Fundamentos de Desarrollo Web Full Stack Front End <br>GitHub para programadores <br>Desarrollo web full stack <br>JavaScript Avanzado Buenas Practicas <br><br>Entre otros mas. </h3>
                 </div>
             </div>
         </div>
     </div>
     
     <!-- cuarta parte seccion de contacto -->
-    <div class="cuarta_seccion">
-        
+
+    <div id="seccion_4" class="cuarta_seccion">       
         <div class="contenedor_logos">
             <h2>Contactame</h2>
             <div class="logo_contacto .logo_whatsapp">
@@ -250,9 +264,8 @@
                     <img class="whatsapp" src="whatsapp.png" alt="">
                 </div>
                 <div class="text">
-                    <p>(57) 324 556 72 06</p>  
-                </div>
-                
+                    <a href="https://wa.me/+573245567206"><p>(57) 324 556 72 06</p>  </a>        
+                </div>               
             </div>
 
             <div class="logo_contacto .logo_instagram">
@@ -260,7 +273,7 @@
                     <img class="instagram" src="instagram.png" alt="">
                 </div>
                 <div class="text">
-                    <p>@gongorabruno</p> 
+                    <a href="https://www.instagram.com/gongorabruno/"><p>@gongorabruno</p> </a>                   
                 </div> 
             </div>
 
@@ -269,9 +282,8 @@
                     <img class="facebook" src="facebook (1).png" alt="">
                 </div>
                 <div class="text">
-                    <p>Bruno Gongora</p>
-                </div>
-                
+                    <a href="https://www.facebook.com/BrunoGongora2018"><p>Bruno Gongora</p></a>      
+                </div>              
             </div>
 
             <div class="logo_contacto .logo_gmail">
@@ -279,22 +291,25 @@
                     <img class="gmail" src="gmail.png" alt="">
                 </div>
                 <div class="text">
-                    <p>gongorabruno12@gmail.com</p>
-                </div>
-                
+                    <a href="mailto:gongorabruno12@gmail.com"><p>gongorabruno12@gmail.com</p></a>                   
+                </div>               
             </div>
+
             <div class="logo_contacto .logo_linkedin">
                 <div class="imagen">
                     <img class="logo_linkedin" src="linkedin.png" alt="">
                 </div>
                 <div class="text">
-                    <p>Bruno Gongora</p>
-                </div>
-                
-            </div>
-            
+                    <a href="https://www.linkedin.com/in/bruno-gongora-b42005199/"><p>Bruno Gongora</p></a>                   
+                </div>               
+            </div>           
         </div>
     </div>
+    
     <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.0577528668205!2d-74.08019894232652!3d4.5836545780892894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f991f36fd5223%3A0xf8ce2637e0a65393!2sConjunto%20Cerrado%20Altavista%20El%20Campanario!5e0!3m2!1ses!2sco!4v1657591996988!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+        <p>Pagina desarrollada por Bruno Gongora</p>
+    </footer>
 </body>
 </html>
