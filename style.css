@@ -350,6 +350,7 @@ pagina web */
 
 .tercera_seccion{
     background-image: url('fondogris.jpg');
+    padding: 0rem 7rem;
 }
 
 .tercera_seccion h2{
@@ -543,6 +544,10 @@ footer{
     text-align: center;
     padding: 1rem;
 }
+
+
+
+
 
 
 
