@@ -547,6 +547,9 @@ footer{
 
 
 @media screen and (max-width: 390px){
+    .portada{
+        height: 100vh;
+    }
     .portada .texto h1{
         text-align: center;
     }
@@ -560,6 +563,30 @@ footer{
     .lista .special{
         background-color: #022227;
         color: white;
+    }
+
+    .seccion_1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .seccion_izquierda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .seccion_centro{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .seccion_derecha{
+        width: 100%;
     }
 
     .seccion_2 .primera_fila{
