@@ -546,77 +546,6 @@ footer{
 }
 
 
-@media screen and (max-width: 1000px) {
-    .seccion_1{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .seccion_centro{
-        width: 100%;
-    }
-
-    
-}
-
-@media screen and (max-width: 720px) {
-    .seccion_derecha{
-        width: 100%;
-    }
-
-    .seccion_izquierda{
-        justify-content: center;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-
-    .seccion_izquierda h3{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .seccion_2 .cards{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .seccion_2 .primera_fila{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        padding: 0;
-        margin: auto;
-    }
-
-    .card_1,
-    .card_2,
-    .card_3{
-        padding: 0;
-        margin: auto;
-        width: 50vw;
-    }
-
-    .seccion_2 .segunda_fila{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        padding: 0;
-        margin: auto;
-    }
-
-    .card_4,
-    .card_5,
-    .card_6{
-        padding: 0;
-        margin: auto;
-        width: 50vw;
-    }
-}
-
-
 @media screen and (max-width: 390px){
     .portada .texto h1{
         text-align: center;
@@ -628,7 +557,7 @@ footer{
         font-size: 2rem;
     } 
     
-    .lista .item_special{
+    .lista .special{
         background-color: #022227;
         color: white;
     }
